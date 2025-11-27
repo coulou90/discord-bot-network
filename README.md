@@ -128,6 +128,42 @@ Utilisée pour gérer l'historique utilisateur.
 Arbre binaire  
 Utilisé pour la discussion guidée.
 
+                                        ┌──────────────────────────────────────┐
+                                        │                ROOT                  │
+                                        │ Tu préfères travailler surtout avec :│
+                                        │   1️⃣ Cisco      |   2️⃣ Linux        │
+                                        └──────────────────────────────────────┘
+                                             /                                     \
+                                            /                                       \
+                                           /                                         \
+
+      ┌──────────────────────────────────────────────┐             ┌───────────────────────────────────────────┐
+      │                    Q2 CISCO                  │             │                   Q2 LINUX                │
+      │ Avec Cisco, tu préfères :                   │             │ Sur Linux, tu préfères travailler sur :    │
+      │ 1️⃣ Config réseau | 2️⃣ Dépannage réseau       │             │ 1️⃣ Administration   |  2️⃣ Automatisation  │
+      └──────────────────────────────────────────────┘             └───────────────────────────────────────────┘
+                   /                      \                                   /                    \
+                  /                        \                                 /                      \
+
+ ┌──────────────────────────────┐   ┌──────────────────────────────┐   ┌────────────────────────────┐   ┌─────────────────────────────┐
+ │        Q3 CISCO CONFIG       │   │     Q3 CISCO DÉPANNAGE       │   │     Q3 LINUX SERVICES       │   │       Q3 LINUX AUTO         │
+ │ Tu préfères travailler sur:  │   │ En dépannage, tu te vois :   │   │ Tu préfères gérer :         │   │ Tu veux automatiser :        │
+ │1️⃣ LAN/VLAN | 2️⃣ Sécurité    │   │ 1️⃣ Analyse    | 2️⃣ NOC      │   │ 1️⃣ Services | 2️⃣ Virtualisation │ │ 1️⃣ Déploiements | 2️⃣ Supervision │
+ └──────────────────────────────┘   └──────────────────────────────┘   └────────────────────────────┘   └─────────────────────────────┘
+       /              \                   /             \                   /           \                     /                 \
+      /                \                 /               \                 /             \                   /                   \
+
+ ┌────────────────────┐ ┌────────────────────────┐ ┌────────────────────────┐ ┌──────────────────────────┐ ┌───────────────────────┐ ┌───────────────────────┐
+ │   LEAF CISCO LAN   │ │   LEAF CISCO SECURITY  │ │  LEAF SUPPORT N2      │ │     LEAF NOC             │ │   LEAF LINUX ADMIN    │ │ LEAF VIRTUALISATION   │
+ │ Admin LAN / VLAN   │ │ Admin Sécurité réseau  │ │ Tech support N2       │ │ Ingénieur NOC            │ │ Admin systèmes Linux  │ │ Ingénieur VM / LXC    │
+ └────────────────────┘ └────────────────────────┘ └────────────────────────┘ └──────────────────────────┘ └───────────────────────┘ └───────────────────────┘
+
+                       ┌──────────────────────────┐       ┌──────────────────────────┐
+                       │      LEAF DEVOPS         │       │   LEAF MONITORING        │
+                       │ Automatisation réseau    │       │ Ingénieur Monitoring     │
+                       └──────────────────────────┘       └──────────────────────────┘
+
+
 Dictionnaires structurés  
 Pour XP, quiz, positions, etc.
 
